@@ -19,4 +19,4 @@ class GiftServiceTest(unittest.TestCase):
         with self.assertRaises(Exception) as exception:
             GiftService().calculate_price(transaction)
         self.assertEqual(str(exception), "Invalid number of gifts, it should be >= 1")
-
+        print(a)
